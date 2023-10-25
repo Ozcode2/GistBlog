@@ -12,11 +12,12 @@ const useWindowSize = () => {
         width: window.innerWidth,
         height: window.innerHeight,
       });
+
     };
 
     handleResize();
 
-    window.addEventListener("Resize", handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);

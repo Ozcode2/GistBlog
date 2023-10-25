@@ -32,7 +32,7 @@ const Nav = () => {
       </form>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/GistBlog">Home</Link>
         </li>
         <li>
           <Link to="/post">Post</Link>

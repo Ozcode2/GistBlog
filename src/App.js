@@ -28,7 +28,7 @@ function App() {
       <Header title="Gistlovers Blog" />
       <Nav />
       <Routes>
-        <Route exact path="/"
+        <Route exact path="/GistBlog"
           element={<Home isLoading={isLoading} fetchError={fetchError} />}
         ></Route>
         <Route exact path="/post" element={<NewPost />} />

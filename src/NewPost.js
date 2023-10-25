@@ -19,12 +19,11 @@ const NewPost = () => {
     const datetime = format(new Date(), "MMM dd, yyyy pp");
     const newPost = { id, title: postTitle, datetime, body: postBody };
     savePost(newPost);
-    navigate("/");
+    navigate("/GistBlog");
   };
 
   return (
     <main className="NewPost">
-      <h2>New Post</h2>
       <form className="newPostForm" onSubmit={handleSubmit}>
         <label htmlFor="postTitle">Title:</label>
         <input
