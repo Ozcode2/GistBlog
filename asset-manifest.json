@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GistBlog/static/css/main.909205d9.css",
-    "main.js": "/GistBlog/static/js/main.f9abe241.js",
+    "main.js": "/GistBlog/static/js/main.573527d1.js",
     "index.html": "/GistBlog/index.html",
     "main.909205d9.css.map": "/GistBlog/static/css/main.909205d9.css.map",
-    "main.f9abe241.js.map": "/GistBlog/static/js/main.f9abe241.js.map"
+    "main.573527d1.js.map": "/GistBlog/static/js/main.573527d1.js.map"
   },
   "entrypoints": [
     "static/css/main.909205d9.css",
-    "static/js/main.f9abe241.js"
+    "static/js/main.573527d1.js"
   ]
 }
